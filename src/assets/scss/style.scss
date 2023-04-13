@@ -1,0 +1,21 @@
+@use './partials/common';
+@use './partials/header';
+@use './partials/main';
+@use './node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+footer {
+  font-size: 0.9rem;
+  padding: 2rem 0;
+  background-color: white;
+  background-image: url('../img/footer-montagne-bottom.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: none;
+  }
+}
